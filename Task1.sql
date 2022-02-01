@@ -42,8 +42,7 @@
 -- List all mentors
 -- SELECT mentors FROM students;
 
--- list the number of students that are assigned for a mentor
-Select * from students where mentors like '[a-z]%' and '[A-Z]%' COLLATE Latin1_General_BIN;
+
 
 
 
